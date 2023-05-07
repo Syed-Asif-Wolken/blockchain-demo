@@ -27,7 +27,7 @@ Reference from [Baeldung](https://www.baeldung.com/java-blockchain)
 - If not we increment the nonce and calculate the hash in a loop
 - The loop goes on until we hit the jackpot
 
-**Note:** I am starting with the default value of nonce here and incrementing it by one. But there are more sophisticated strategies to start and increment a nonce in real-world applications.
+**Note:** Nonce starts from 0 and is incremented by 1 here. More sophisticated strategies to start and increment a nonce are available in real-world applications.
 
 ### Block Validation
 - The stored hash of the current block is actually what it calculates
